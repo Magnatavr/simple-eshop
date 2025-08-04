@@ -1,0 +1,47 @@
+# Игнорируем системные файлы и IDE
+.DS_Store
+*.log
+*.tmp
+
+# PhpStorm / VSCode
+.idea/
+.vscode/
+
+# Файлы Composer 
+vendor/
+composer.lock
+
+# Кеши и сессии
+cache/
+*.cache
+*.bak
+*.swp
+*.swo
+*.pid
+*.seed
+
+# Загрузки
+uploads/
+attachments/
+*.zip
+*.tar.gz
+
+# Конфиги (если хранишь локально)
+.env
+.env.local
+
+
+
+
+# Node 
+node_modules/
+dist/
+build/
+
+# Тестовые файлы
+tests/output/
+phpunit.xml
+
+# OS specific
+ehthumbs.db
+Icon?
